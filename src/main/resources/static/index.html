@@ -7,7 +7,7 @@
     <title>Host Details</title>
     <link href="bootstrap/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet" >
-    <script type="text/javascript" src="js/app.js?v=2"></script>
+    <script type="text/javascript" src="js/app.js?v=3"></script>
 </head>
 
 <body class="bg-opacity-50 bg-custom" onload="getDetails()">
@@ -45,7 +45,7 @@
                             <h3  style="text-align: right">Host:</h3>
                         </div>
                         <div class="col-6">
-                            <h4  style="text-align: left" id="host">-</h4>
+                            <p style="text-align: left;font-size: small;" id="host">-</p>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                             <h3  style="text-align: right">Namespace:</h3>
                         </div>
                         <div class="col-6">
-                            <h4  style="text-align: left">-</h4>
+                            <p style="text-align: left;font-size: small;" id="nameSpace">-</p>
                         </div>
                     </div>
                 </div>
@@ -74,10 +74,26 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-6" >
-                            <h3  style="text-align: right">Operating System:</h3>
+                            <h3  style="text-align: right">Pod Name:</h3>
                         </div>
                         <div class="col-6">
-                            <h4  style="text-align: left">-</h4>
+                            <p style="text-align: left;font-size: small;" id="podName">-</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6" >
+                            <h3  style="text-align: right">Node Name:</h3>
+                        </div>
+                        <div class="col-6">
+                            <p style="text-align: left;font-size: small;" id="nodeName">-</p>
                         </div>
                     </div>
                 </div>
