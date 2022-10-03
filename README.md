@@ -4,14 +4,14 @@
 
 Following installations are needed to execute this project
 - JDK 17
-- GraalVM 22.22
+- GraalVM 22.2.0
 - Docker or Podman installation
 - gcc on Linux environment
 - Windows SDK on Windows environment
 
 Currently project is tested on WSL2 Ubuntu
 
-** Build
+## Build
 
 To build project locally, please run
 
