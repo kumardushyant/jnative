@@ -4,7 +4,7 @@
 
 Following installations are needed to execute this project
 - JDK 17
-- GraalVM 22.2.0
+- GraalVM 22.3.0
 - Docker or Podman installation
 - gcc on Linux environment
 - Windows SDK on Windows environment
@@ -16,7 +16,7 @@ Currently project is tested on WSL2 Ubuntu
 To build project locally, please run
 
 ```
-gradle build nativeCompile
+gradle clean nativeCompile
 ```
 
 This command will create an executable at ``./build/native/nativeCompile/jnative``
